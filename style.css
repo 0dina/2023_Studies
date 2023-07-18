@@ -1,0 +1,117 @@
+main{
+    background-image: url(img/background.png);
+    
+    background-size: cover;
+    position: relative;
+    background-repeat: space;
+}
+.logoImg{
+   float: left;
+   width: 50px;
+   height: 50px;
+   margin: 20px;
+}
+
+.nav_box{
+    float: right;
+    margin-top: 30px;
+}
+
+.nav_menu{
+    font-size: 20px;
+    color: rgb(14, 4, 4);
+}
+
+.nav_menu:hover{
+    border-bottom: 2px solid rgb(18, 17, 17);
+}
+
+.login_popUp{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 10%;
+    left: 10%;
+    padding: 30px;
+}
+
+.login_popUp>span:first-child{
+    font-size: 20px;
+}
+
+.login_popUp>div{
+    font-size: 20px;
+}
+
+.login_popUp table>tr>td{
+    font-size: 20px;
+}
+
+.grid_container{
+    background:none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0 50px;
+    text-align: center;
+    top: -100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(50%, 0%);
+    
+}
+
+.grid_item{
+    background-color: whitesmoke;
+    border: none;
+    font-size: 20px;
+    height: 300px;
+}
+
+
+.footer_grid_container{
+    background:none;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+
+    grid-column-gap: 5%;
+    text-align: center;
+    left: 50%;
+    transform: translate(10%, 0%);
+    /* padding-left: 10% */
+}
+
+.footer_grid_item{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+aside{
+    padding-top: 300px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 23%;
+    display: inline-block;
+}
+
+aside table tr td{
+    width: 50%;
+    border: black 1px solid!important;
+}
+
+aside table tr th{
+    width: 50%;
+    border: white 1px solid!important;
+}
+
+a:link{
+    color:white !important;
+    text-decoration: none;
+}
+a:visited{
+    color:white !important;
+    text-decoration: none;
+}
+a:hover{
+    color:white !important;
+    text-decoration: none;
+}
